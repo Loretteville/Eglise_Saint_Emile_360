@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project Title</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-1">
+        <li class="text">1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-1---copie">
+        <li class="text">1 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-2">
+        <li class="text">2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-2---copie">
+        <li class="text">2 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-3---copie">
+        <li class="text">3 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-3---copie---copie">
+        <li class="text">3 - Copie - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-3---copie---copie---copie">
+        <li class="text">3 - Copie - Copie - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-4">
+        <li class="text">4</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-4---copie">
+        <li class="text">4 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-5">
+        <li class="text">5</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-6">
+        <li class="text">6</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-6---copie">
+        <li class="text">6 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-7">
+        <li class="text">7</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-8">
+        <li class="text">8</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-8---copie">
+        <li class="text">8 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-8---copie---copie">
+        <li class="text">8 - Copie - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-9">
+        <li class="text">9</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-9---copie">
+        <li class="text">9 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-10">
+        <li class="text">10</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-10---copie">
+        <li class="text">10 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-11">
+        <li class="text">11</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-11---copie">
+        <li class="text">11 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-13">
+        <li class="text">13</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-13---copie">
+        <li class="text">13 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24-13---copie---copie">
+        <li class="text">13 - Copie - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25-14">
+        <li class="text">14</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="26-14---copie">
+        <li class="text">14 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="27-14---copie---copie">
+        <li class="text">14 - Copie - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="28-15">
+        <li class="text">15</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="29-15---copie">
+        <li class="text">15 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="30-18">
+        <li class="text">18</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="31-18---copie">
+        <li class="text">18 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="32-19">
+        <li class="text">19</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="33-19---copie">
+        <li class="text">19 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="34-20">
+        <li class="text">20</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="35-20---copie">
+        <li class="text">20 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="36-21">
+        <li class="text">21</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="37-21---copie">
+        <li class="text">21 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="38-22">
+        <li class="text">22</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="39-22---copie">
+        <li class="text">22 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="40-23">
+        <li class="text">23</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="41-23---copie">
+        <li class="text">23 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="42-24">
+        <li class="text">24</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="43-24---copie">
+        <li class="text">24 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="44-24---copie---copie">
+        <li class="text">24 - Copie - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="45-24---copie---copie---copie">
+        <li class="text">24 - Copie - Copie - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="46-26">
+        <li class="text">26</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="47-26---copie">
+        <li class="text">26 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="48-26---copie---copie">
+        <li class="text">26 - Copie - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="49-26---copie---copie---copie">
+        <li class="text">26 - Copie - Copie - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="50-28">
+        <li class="text">28</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="51-28---copie">
+        <li class="text">28 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="52-29">
+        <li class="text">29</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="53-29---copie">
+        <li class="text">29 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="54-30">
+        <li class="text">30</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="55-30---copie">
+        <li class="text">30 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="56-31">
+        <li class="text">31</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="57-31---copie">
+        <li class="text">31 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="58-32">
+        <li class="text">32</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="59-32---copie">
+        <li class="text">32 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="60-33">
+        <li class="text">33</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="61-33---copie">
+        <li class="text">33 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="62-34">
+        <li class="text">34</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="63-34---copie">
+        <li class="text">34 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="64-35">
+        <li class="text">35</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="65-35---copie">
+        <li class="text">35 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="66-36">
+        <li class="text">36</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="67-36---copie">
+        <li class="text">36 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="68-37">
+        <li class="text">37</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="69-37---copie">
+        <li class="text">37 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="70-38">
+        <li class="text">38</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="71-38---copie">
+        <li class="text">38 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="72-39">
+        <li class="text">39</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="73-39---copie">
+        <li class="text">39 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="74-40">
+        <li class="text">40</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="75-40---copie">
+        <li class="text">40 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="76-41">
+        <li class="text">41</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="77-41---copie">
+        <li class="text">41 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="78-42">
+        <li class="text">42</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="79-42---copie">
+        <li class="text">42 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="80-43">
+        <li class="text">43</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="81-43---copie">
+        <li class="text">43 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="82-44">
+        <li class="text">44</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="83-44---copie">
+        <li class="text">44 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="84-45">
+        <li class="text">45</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="85-45---copie">
+        <li class="text">45 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="86-46">
+        <li class="text">46</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="87-46---copie">
+        <li class="text">46 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="88-47">
+        <li class="text">47</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="89-47---copie">
+        <li class="text">47 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="90-48">
+        <li class="text">48</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="91-48---copie">
+        <li class="text">48 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="92-49">
+        <li class="text">49</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="93-52">
+        <li class="text">52</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="94-52---copie">
+        <li class="text">52 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="95-54">
+        <li class="text">54</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="96-54---copie">
+        <li class="text">54 - Copie</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="97-55">
+        <li class="text">55</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
